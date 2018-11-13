@@ -1,0 +1,560 @@
+2018-11-13 09:01:50.718  INFO 13580 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 13580 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 09:01:50.719  INFO 13580 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 09:01:51.888  WARN 13580 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.login]' package. Please check your configuration.
+2018-11-13 09:01:52.207  INFO 13580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65b65fbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-13 09:01:52.541  INFO 13580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 09:01:52.559  INFO 13580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 09:01:52.559  INFO 13580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 09:01:52.567  INFO 13580 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 09:01:52.699  INFO 13580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 09:01:52.700  INFO 13580 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1881 ms
+2018-11-13 09:01:52.726  INFO 13580 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 09:01:52.730  INFO 13580 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 09:01:52.730  INFO 13580 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 09:01:52.730  INFO 13580 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 09:01:52.730  INFO 13580 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 09:01:53.101  INFO 13580 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-13 09:01:53.221  INFO 13580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 09:01:53.653  INFO 13580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-13 09:01:53.673  INFO 13580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-13 09:01:53.705  INFO 13580 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-13 09:01:53.751  INFO 13580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 09:01:53.755  INFO 13580 --- [main] com.wzzm.login.LoginApplication          : Started LoginApplication in 3.591 seconds (JVM running for 4.827)
+2018-11-13 09:01:53.757  INFO 13580 --- [main] com.wzzm.login.LoginApplication          : SpringBoot加载完毕
+2018-11-13 09:03:34.511  INFO 14312 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 14312 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 09:03:34.512  INFO 14312 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 09:03:35.507  WARN 14312 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.login]' package. Please check your configuration.
+2018-11-13 09:03:35.775  INFO 14312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2da1ec95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-13 09:03:36.101  INFO 14312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 09:03:36.117  INFO 14312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 09:03:36.117  INFO 14312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 09:03:36.125  INFO 14312 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 09:03:36.253  INFO 14312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 09:03:36.253  INFO 14312 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1675 ms
+2018-11-13 09:03:36.279  INFO 14312 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 09:03:36.284  INFO 14312 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 09:03:36.284  INFO 14312 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 09:03:36.284  INFO 14312 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 09:03:36.284  INFO 14312 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 09:03:36.645  INFO 14312 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-13 09:03:36.762  INFO 14312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 09:03:37.137  INFO 14312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-13 09:03:37.154  INFO 14312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-13 09:03:37.181  INFO 14312 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-13 09:03:37.224  INFO 14312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 09:03:37.226  INFO 14312 --- [main] com.wzzm.login.LoginApplication          : Started LoginApplication in 3.199 seconds (JVM running for 4.26)
+2018-11-13 09:03:37.228  INFO 14312 --- [main] com.wzzm.login.LoginApplication          : SpringBoot加载完毕
+2018-11-13 09:04:43.351  INFO 3432 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 3432 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 09:04:43.352  INFO 3432 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 09:04:44.482  WARN 3432 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.login]' package. Please check your configuration.
+2018-11-13 09:04:44.754  INFO 3432 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23c314e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-13 09:04:45.099  INFO 3432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 09:04:45.117  INFO 3432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 09:04:45.117  INFO 3432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 09:04:45.125  INFO 3432 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 09:04:45.249  INFO 3432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 09:04:45.249  INFO 3432 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1850 ms
+2018-11-13 09:04:45.273  INFO 3432 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 09:04:45.279  INFO 3432 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 09:04:45.279  INFO 3432 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 09:04:45.280  INFO 3432 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 09:04:45.280  INFO 3432 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 09:04:45.616  INFO 3432 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-13 09:04:45.737  INFO 3432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 09:04:46.142  INFO 3432 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-13 09:04:46.160  INFO 3432 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-13 09:04:46.188  INFO 3432 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-13 09:04:46.230  INFO 3432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 09:04:46.234  INFO 3432 --- [main] com.wzzm.login.LoginApplication          : Started LoginApplication in 3.392 seconds (JVM running for 4.485)
+2018-11-13 09:04:46.236  INFO 3432 --- [main] com.wzzm.login.LoginApplication          : SpringBoot加载完毕
+2018-11-13 11:02:48.333  INFO 10348 --- [main] com.wzzm.order.OrderApplication          : Starting OrderApplication on LAPTOP-CN3FPRD6 with PID 10348 (E:\ideaWorkSpace\huayun\order\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:02:48.336  INFO 10348 --- [main] com.wzzm.order.OrderApplication          : The following profiles are active: dev
+2018-11-13 11:02:49.032  WARN 10348 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.order]' package. Please check your configuration.
+2018-11-13 11:02:49.629  INFO 10348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:02:49.647  INFO 10348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:02:49.648  INFO 10348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:02:49.656  INFO 10348 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:02:49.801  INFO 10348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:02:49.801  INFO 10348 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1411 ms
+2018-11-13 11:02:49.824  INFO 10348 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:02:49.828  INFO 10348 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:02:49.828  INFO 10348 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:02:49.828  INFO 10348 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:02:49.828  INFO 10348 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:02:50.002  INFO 10348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:02:50.315  INFO 10348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:02:50.318  INFO 10348 --- [main] com.wzzm.order.OrderApplication          : Started OrderApplication in 2.669 seconds (JVM running for 4.276)
+2018-11-13 11:04:07.794  INFO 17804 --- [main] com.wzzm.order.OrderApplication          : Starting OrderApplication on LAPTOP-CN3FPRD6 with PID 17804 (E:\ideaWorkSpace\huayun\order\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:04:07.795  INFO 17804 --- [main] com.wzzm.order.OrderApplication          : The following profiles are active: dev
+2018-11-13 11:04:08.445  WARN 17804 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.order]' package. Please check your configuration.
+2018-11-13 11:04:08.997  INFO 17804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:04:09.011  INFO 17804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:04:09.012  INFO 17804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:04:09.019  INFO 17804 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:04:09.160  INFO 17804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:04:09.161  INFO 17804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1299 ms
+2018-11-13 11:04:09.186  INFO 17804 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:04:09.190  INFO 17804 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:04:09.190  INFO 17804 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:04:09.190  INFO 17804 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:04:09.190  INFO 17804 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:04:09.407  INFO 17804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:04:09.705  INFO 17804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:04:09.708  INFO 17804 --- [main] com.wzzm.order.OrderApplication          : Started OrderApplication in 2.425 seconds (JVM running for 3.587)
+2018-11-13 11:04:09.711  INFO 17804 --- [main] com.wzzm.order.OrderApplication          : SpringBoot加载完毕
+2018-11-13 11:07:55.026  INFO 19336 --- [main] com.wzzm.goods.GoodsApplication          : Starting GoodsApplication on LAPTOP-CN3FPRD6 with PID 19336 (E:\ideaWorkSpace\huayun\goods\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:07:55.028  INFO 19336 --- [main] com.wzzm.goods.GoodsApplication          : The following profiles are active: dev
+2018-11-13 11:07:55.544  WARN 19336 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.goods]' package. Please check your configuration.
+2018-11-13 11:07:56.130  INFO 19336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:07:56.148  INFO 19336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:07:56.148  INFO 19336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:07:56.157  INFO 19336 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:07:56.313  INFO 19336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:07:56.313  INFO 19336 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1249 ms
+2018-11-13 11:07:56.341  INFO 19336 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:07:56.347  INFO 19336 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:07:56.347  INFO 19336 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:07:56.347  INFO 19336 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:07:56.348  INFO 19336 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:07:56.562  INFO 19336 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:07:56.869 ERROR 19336 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.wzzm.goods.GoodsApplication.main(GoodsApplication.java:13) [classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	... 14 common frames omitted
+
+2018-11-13 11:07:56.873  INFO 19336 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-13 11:07:56.884  INFO 19336 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-13 11:07:56.889 ERROR 19336 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-11-13 11:07:56.893  INFO 19336 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:08:44.513  INFO 9080 --- [main] com.wzzm.order.OrderApplication          : Starting OrderApplication on LAPTOP-CN3FPRD6 with PID 9080 (E:\ideaWorkSpace\huayun\order\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:08:44.515  INFO 9080 --- [main] com.wzzm.order.OrderApplication          : The following profiles are active: dev
+2018-11-13 11:08:45.221  WARN 9080 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.order]' package. Please check your configuration.
+2018-11-13 11:08:45.894  INFO 9080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:08:45.914  INFO 9080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:08:45.914  INFO 9080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:08:45.923  INFO 9080 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:08:46.073  INFO 9080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:08:46.074  INFO 9080 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1510 ms
+2018-11-13 11:08:46.098  INFO 9080 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:08:46.104  INFO 9080 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:08:46.105  INFO 9080 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:08:46.106  INFO 9080 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:08:46.108  INFO 9080 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:08:46.331  INFO 9080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:08:46.636  INFO 9080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:08:46.639  INFO 9080 --- [main] com.wzzm.order.OrderApplication          : Started OrderApplication in 2.583 seconds (JVM running for 3.723)
+2018-11-13 11:08:46.641  INFO 9080 --- [main] com.wzzm.order.OrderApplication          : SpringBoot加载完毕
+2018-11-13 11:08:54.366  INFO 18828 --- [main] com.wzzm.goods.GoodsApplication          : Starting GoodsApplication on LAPTOP-CN3FPRD6 with PID 18828 (E:\ideaWorkSpace\huayun\goods\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:08:54.367  INFO 18828 --- [main] com.wzzm.goods.GoodsApplication          : The following profiles are active: dev
+2018-11-13 11:08:55.176  WARN 18828 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.goods]' package. Please check your configuration.
+2018-11-13 11:08:55.741  INFO 18828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:08:55.759  INFO 18828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:08:55.759  INFO 18828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:08:55.765  INFO 18828 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:08:55.912  INFO 18828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:08:55.912  INFO 18828 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1463 ms
+2018-11-13 11:08:55.937  INFO 18828 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:08:55.940  INFO 18828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:08:55.941  INFO 18828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:08:55.941  INFO 18828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:08:55.941  INFO 18828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:08:56.168  INFO 18828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:08:56.465 ERROR 18828 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.wzzm.goods.GoodsApplication.main(GoodsApplication.java:13) [classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	... 14 common frames omitted
+
+2018-11-13 11:08:56.470  INFO 18828 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-13 11:08:56.478  INFO 18828 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-13 11:08:56.483 ERROR 18828 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-11-13 11:08:56.486  INFO 18828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:09:46.503  INFO 2132 --- [main] com.wzzm.goods.GoodsApplication          : Starting GoodsApplication on LAPTOP-CN3FPRD6 with PID 2132 (E:\ideaWorkSpace\huayun\goods\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:09:46.504  INFO 2132 --- [main] com.wzzm.goods.GoodsApplication          : The following profiles are active: dev
+2018-11-13 11:09:47.324  WARN 2132 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.goods]' package. Please check your configuration.
+2018-11-13 11:09:47.962  INFO 2132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:09:47.978  INFO 2132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:09:47.978  INFO 2132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:09:47.984  INFO 2132 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:09:48.122  INFO 2132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:09:48.122  INFO 2132 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1566 ms
+2018-11-13 11:09:48.146  INFO 2132 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:09:48.150  INFO 2132 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:09:48.150  INFO 2132 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:09:48.150  INFO 2132 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:09:48.150  INFO 2132 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:09:48.366  INFO 2132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:09:48.675  INFO 2132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:09:48.678  INFO 2132 --- [main] com.wzzm.goods.GoodsApplication          : Started GoodsApplication in 2.717 seconds (JVM running for 3.918)
+2018-11-13 11:09:48.680  INFO 2132 --- [main] com.wzzm.goods.GoodsApplication          : SpringBoot加载完毕
+2018-11-13 11:13:15.126  INFO 8048 --- [main] com.wzzm.naddress.NaddressApplication    : Starting NaddressApplication on LAPTOP-CN3FPRD6 with PID 8048 (E:\ideaWorkSpace\huayun\naddress\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:13:15.128  INFO 8048 --- [main] com.wzzm.naddress.NaddressApplication    : The following profiles are active: dev
+2018-11-13 11:13:15.676  WARN 8048 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.naddress]' package. Please check your configuration.
+2018-11-13 11:13:16.239  INFO 8048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:13:16.255  INFO 8048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:13:16.255  INFO 8048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:13:16.261  INFO 8048 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:13:16.405  INFO 8048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:13:16.406  INFO 8048 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1233 ms
+2018-11-13 11:13:16.429  INFO 8048 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:13:16.433  INFO 8048 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:13:16.433  INFO 8048 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:13:16.434  INFO 8048 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:13:16.435  INFO 8048 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:13:16.739  INFO 8048 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:13:17.013 ERROR 8048 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.wzzm.naddress.NaddressApplication.main(NaddressApplication.java:13) [classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	... 14 common frames omitted
+
+2018-11-13 11:13:17.019  INFO 8048 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-13 11:13:17.028  INFO 8048 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-13 11:13:17.032 ERROR 8048 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-11-13 11:13:17.035  INFO 8048 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:13:25.932  INFO 18652 --- [main] com.wzzm.naddress.NaddressApplication    : Starting NaddressApplication on LAPTOP-CN3FPRD6 with PID 18652 (E:\ideaWorkSpace\huayun\naddress\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:13:25.934  INFO 18652 --- [main] com.wzzm.naddress.NaddressApplication    : The following profiles are active: dev
+2018-11-13 11:13:26.678  WARN 18652 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.naddress]' package. Please check your configuration.
+2018-11-13 11:13:27.313  INFO 18652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:13:27.334  INFO 18652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:13:27.334  INFO 18652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:13:27.342  INFO 18652 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:13:27.496  INFO 18652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:13:27.496  INFO 18652 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1511 ms
+2018-11-13 11:13:27.523  INFO 18652 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:13:27.528  INFO 18652 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:13:27.529  INFO 18652 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:13:27.529  INFO 18652 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:13:27.530  INFO 18652 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:13:27.740  INFO 18652 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:13:28.055  INFO 18652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:13:28.058  INFO 18652 --- [main] com.wzzm.naddress.NaddressApplication    : Started NaddressApplication in 2.635 seconds (JVM running for 3.767)
+2018-11-13 11:13:28.063  INFO 18652 --- [main] com.wzzm.naddress.NaddressApplication    : SpringBoot加载完毕
+2018-11-13 11:15:58.744  INFO 13708 --- [main] com.wzzm.collect.CollectApplication      : Starting CollectApplication on LAPTOP-CN3FPRD6 with PID 13708 (E:\ideaWorkSpace\huayun\collect\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:15:58.744  INFO 13708 --- [main] com.wzzm.collect.CollectApplication      : The following profiles are active: dev
+2018-11-13 11:15:59.584  WARN 13708 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.collect]' package. Please check your configuration.
+2018-11-13 11:16:00.153  INFO 13708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:16:00.169  INFO 13708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:16:00.169  INFO 13708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:16:00.177  INFO 13708 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:16:00.314  INFO 13708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:16:00.314  INFO 13708 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1517 ms
+2018-11-13 11:16:00.337  INFO 13708 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:16:00.341  INFO 13708 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:16:00.341  INFO 13708 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:16:00.342  INFO 13708 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:16:00.342  INFO 13708 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:16:00.570  INFO 13708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:16:00.890  INFO 13708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:16:00.893  INFO 13708 --- [main] com.wzzm.collect.CollectApplication      : Started CollectApplication in 2.896 seconds (JVM running for 4.393)
+2018-11-13 11:16:00.895  INFO 13708 --- [main] com.wzzm.collect.CollectApplication      : SpringBoot加载完毕
+2018-11-13 11:19:18.388  INFO 10668 --- [main] com.wzzm.order.OrderApplication          : Starting OrderApplication on LAPTOP-CN3FPRD6 with PID 10668 (E:\ideaWorkSpace\huayun\order\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:19:18.389  INFO 10668 --- [main] com.wzzm.order.OrderApplication          : The following profiles are active: dev
+2018-11-13 11:19:19.125  WARN 10668 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzm.order]' package. Please check your configuration.
+2018-11-13 11:19:19.794  INFO 10668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:19:19.808  INFO 10668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:19:19.809  INFO 10668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:19:19.815  INFO 10668 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:19:19.949  INFO 10668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:19:19.949  INFO 10668 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1494 ms
+2018-11-13 11:19:19.974  INFO 10668 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:19:19.978  INFO 10668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:19:19.978  INFO 10668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:19:19.978  INFO 10668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:19:19.978  INFO 10668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:19:20.196  INFO 10668 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:19:20.512  INFO 10668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:19:20.515  INFO 10668 --- [main] com.wzzm.order.OrderApplication          : Started OrderApplication in 2.65 seconds (JVM running for 3.791)
+2018-11-13 11:19:20.519  INFO 10668 --- [main] com.wzzm.order.OrderApplication          : SpringBoot加载完毕
+2018-11-13 11:46:46.999  INFO 7024 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 7024 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:46:47.001  INFO 7024 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 11:46:49.070  INFO 7024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:46:49.121  INFO 7024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:46:49.122  INFO 7024 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:46:49.149  INFO 7024 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:46:49.418  INFO 7024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:46:49.418  INFO 7024 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2364 ms
+2018-11-13 11:46:49.447  INFO 7024 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:46:49.451  INFO 7024 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:46:49.451  INFO 7024 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:46:49.451  INFO 7024 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:46:49.452  INFO 7024 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:46:49.488  WARN 7024 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsController': Unsatisfied dependency expressed through field 'goodsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsServiceImpl': Unsatisfied dependency expressed through field 'goodsDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wzzm.login.dao.GoodsDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-13 11:46:49.494  INFO 7024 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-13 11:46:49.513  INFO 7024 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-13 11:46:49.728 ERROR 7024 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field goodsDao in com.wzzm.login.service.impl.GoodsServiceImpl required a bean of type 'com.wzzm.login.dao.GoodsDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.wzzm.login.dao.GoodsDao' in your configuration.
+
+2018-11-13 11:47:49.901  INFO 17992 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 17992 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:47:49.902  INFO 17992 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 11:47:51.393  INFO 17992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:47:51.406  INFO 17992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:47:51.407  INFO 17992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:47:51.413  INFO 17992 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:47:51.546  INFO 17992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:47:51.547  INFO 17992 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1531 ms
+2018-11-13 11:47:51.570  INFO 17992 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:47:51.573  INFO 17992 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:47:51.574  INFO 17992 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:47:51.574  INFO 17992 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:47:51.574  INFO 17992 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:47:51.601  WARN 17992 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsController': Unsatisfied dependency expressed through field 'goodsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsServiceImpl': Unsatisfied dependency expressed through field 'goodsDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wzzm.login.dao.GoodsDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-13 11:47:51.605  INFO 17992 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-13 11:47:51.622  INFO 17992 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-13 11:47:51.732 ERROR 17992 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field goodsDao in com.wzzm.login.service.impl.GoodsServiceImpl required a bean of type 'com.wzzm.login.dao.GoodsDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.wzzm.login.dao.GoodsDao' in your configuration.
+
+2018-11-13 11:50:28.656  INFO 5404 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 5404 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:50:28.657  INFO 5404 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 11:50:30.175  INFO 5404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:50:30.189  INFO 5404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:50:30.189  INFO 5404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:50:30.195  INFO 5404 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:50:30.322  INFO 5404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:50:30.322  INFO 5404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1598 ms
+2018-11-13 11:50:30.347  INFO 5404 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:50:30.351  INFO 5404 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:50:30.351  INFO 5404 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:50:30.351  INFO 5404 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:50:30.351  INFO 5404 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:50:30.381  WARN 5404 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsController': Unsatisfied dependency expressed through field 'goodsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsServiceImpl': Unsatisfied dependency expressed through field 'goodsDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wzzm.login.dao.GoodsDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-13 11:50:30.383  INFO 5404 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-13 11:50:30.407  INFO 5404 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-13 11:50:30.514 ERROR 5404 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field goodsDao in com.wzzm.login.service.impl.GoodsServiceImpl required a bean of type 'com.wzzm.login.dao.GoodsDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.wzzm.login.dao.GoodsDao' in your configuration.
+
+2018-11-13 11:54:14.864  INFO 9740 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 9740 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:54:14.866  INFO 9740 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 11:54:16.703  INFO 9740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:54:16.719  INFO 9740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:54:16.719  INFO 9740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:54:16.726  INFO 9740 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:54:16.867  INFO 9740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:54:16.867  INFO 9740 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1808 ms
+2018-11-13 11:54:16.895  INFO 9740 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:54:16.902  INFO 9740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:54:16.902  INFO 9740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:54:16.903  INFO 9740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:54:16.903  INFO 9740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:54:16.948  WARN 9740 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsController': Unsatisfied dependency expressed through field 'goodsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'goodsServiceImpl': Unsatisfied dependency expressed through field 'goodsDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wzzm.login.dao.GoodsDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=gd)}
+2018-11-13 11:54:16.952  INFO 9740 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-13 11:54:16.978  INFO 9740 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-13 11:54:17.071 ERROR 9740 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field goodsDao in com.wzzm.login.service.impl.GoodsServiceImpl required a bean of type 'com.wzzm.login.dao.GoodsDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.wzzm.login.dao.GoodsDao' in your configuration.
+
+2018-11-13 11:54:29.527  INFO 18672 --- [main] com.wzzm.login.LoginApplication          : Starting LoginApplication on LAPTOP-CN3FPRD6 with PID 18672 (E:\ideaWorkSpace\huayun\login\target\classes started by 常帅 in E:\ideaWorkSpace\huayun)
+2018-11-13 11:54:29.528  INFO 18672 --- [main] com.wzzm.login.LoginApplication          : The following profiles are active: dev
+2018-11-13 11:54:31.376  INFO 18672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccd05162] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-13 11:54:31.746  INFO 18672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-13 11:54:31.763  INFO 18672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-13 11:54:31.764  INFO 18672 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 11:54:31.772  INFO 18672 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Vscode\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\apache-maven-3.5.4\bin;D:\SVN\bin;D:\SVN server\bin;C:\Users\常帅\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\常帅\AppData\Local\GitHubDesktop\bin;.]
+2018-11-13 11:54:31.921  INFO 18672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-13 11:54:31.921  INFO 18672 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2309 ms
+2018-11-13 11:54:31.951  INFO 18672 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-13 11:54:31.956  INFO 18672 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 11:54:31.957  INFO 18672 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 11:54:31.957  INFO 18672 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 11:54:31.957  INFO 18672 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 11:54:32.713  INFO 18672 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-13 11:54:32.832  INFO 18672 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 11:54:33.035  INFO 18672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-13 11:54:33.052  INFO 18672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-13 11:54:33.080  INFO 18672 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-13 11:54:33.260  INFO 18672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 11:54:33.264  INFO 18672 --- [main] com.wzzm.login.LoginApplication          : Started LoginApplication in 4.328 seconds (JVM running for 5.673)
+2018-11-13 11:54:33.266  INFO 18672 --- [main] com.wzzm.login.LoginApplication          : SpringBoot加载完毕
+2018-11-13 11:54:42.898  INFO 18672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-13 11:54:42.899  INFO 18672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-13 11:54:42.912  INFO 18672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2018-11-13 11:55:01.607  INFO 18672 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-11-13 11:55:02.262  INFO 18672 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
